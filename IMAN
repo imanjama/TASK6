@@ -1,0 +1,4 @@
+iman$ git clone in209@localhost:/repos/in209.git myrepo
+iman$ git fetchin209@localhost:/repos/in209.git/myrepo master
+alice$ git log -p HEAD..FETCH_HEAD
+$ gitk HEAD..FETCH_HEAD
